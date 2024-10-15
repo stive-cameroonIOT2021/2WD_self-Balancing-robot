@@ -1,2 +1,2 @@
 # 2WD_self-Balancing-robot
-A 2WD self-balancing robot using an Arduino Uno, 
+A 2WD self-balancing robot using an Arduino Uno, NEMA 17 stepper motors, a CNC shield, and an MPU6050 accelerometer/gyroscope sensor can balance itself on two wheels. The MPU6050 provides real-time tilt angle data, which is processed by the Arduino to control the stepper motors via the CNC shield. By adjusting the motors' speed and direction based on the tilt angle, the robot can maintain balance and stabilize itself. This setup combines feedback control (using a PID controller) with precise stepper motor movements to keep the robot upright.
